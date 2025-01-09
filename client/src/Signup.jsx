@@ -68,6 +68,12 @@ const Signup = () => {
         <Link to="/login" className="btn btn-secondary w-100 mt-2">
           Login
         </Link>
+        <button
+          className="btn btn-primary w-100 mt-3"
+          onClick={() => navigate("/")}
+        >
+          Go to Home
+        </button>
       </div>
     </div>
   );
